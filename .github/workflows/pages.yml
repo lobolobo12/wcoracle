@@ -28,6 +28,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true # auto-enable Pages so no manual repo setting is needed
       - uses: actions/upload-pages-artifact@v3
         with:
           path: "." # whole repo is the static site

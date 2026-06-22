@@ -72,13 +72,15 @@ to `data/results.json`. The app loads that file on open, so it stays current on 
 
 ---
 
-## 🚀 Going live (one-time, ~1 minute)
+## 🚀 Going live (basically automatic)
 
-1. Push this branch to GitHub (already done if you're reading this in the repo).
-2. Repo **Settings → Pages → Build and deployment → Source: “GitHub Actions”**.
-3. The **Deploy to GitHub Pages** workflow publishes the site at
-   `https://lobolobo12.github.io/wcoracle/`.
-4. (Optional) In **Settings → Actions → General**, allow workflows to **write**, so the
+1. The **Deploy to GitHub Pages** workflow runs on every push and **auto-enables Pages**
+   (`configure-pages` with `enablement: true`), then publishes the site at
+   `https://lobolobo12.github.io/wcoracle/`. No manual Pages setting needed.
+2. If your org/account blocks auto-enable, do it once by hand:
+   **Settings → Pages → Build and deployment → Source: “GitHub Actions”**, then re-run the
+   workflow from the **Actions** tab.
+3. (Optional) In **Settings → Actions → General**, allow workflows to **write**, so the
    results auto-updater can commit. Then trigger **Update results** once from the Actions
    tab to confirm it works.
 
