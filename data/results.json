@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T04:08:58.391Z",
+  "updated": "2026-06-23T09:57:12.813Z",
   "source": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json",
   "note": "Auto-updated by .github/workflows/update-results.yml. Codes match js/data.js.",
   "results": [
@@ -297,6 +297,14 @@
       "away": "AUT",
       "hg": 2,
       "ag": 0,
+      "date": "2026-06-22"
+    },
+    {
+      "group": "J",
+      "home": "JOR",
+      "away": "ALG",
+      "hg": 1,
+      "ag": 2,
       "date": "2026-06-22"
     },
     {
