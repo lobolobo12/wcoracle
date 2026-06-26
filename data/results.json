@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T04:18:55.431Z",
+  "updated": "2026-06-26T22:19:35.924Z",
   "source": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json",
   "note": "Auto-updated by .github/workflows/update-results.yml. Codes match js/data.js.",
   "results": [
@@ -362,6 +362,22 @@
       "hg": 3,
       "ag": 2,
       "date": "2026-06-22"
+    },
+    {
+      "group": "I",
+      "home": "NOR",
+      "away": "FRA",
+      "hg": 1,
+      "ag": 4,
+      "date": "2026-06-26"
+    },
+    {
+      "group": "I",
+      "home": "SEN",
+      "away": "IRQ",
+      "hg": 5,
+      "ag": 0,
+      "date": "2026-06-26"
     },
     {
       "group": "J",
