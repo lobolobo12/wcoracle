@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T08:46:04.502Z",
+  "updated": "2026-06-28T04:39:39.032Z",
   "source": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json",
   "note": "Auto-updated by .github/workflows/update-results.yml. Codes match js/data.js.",
   "results": [
@@ -444,6 +444,22 @@
       "date": "2026-06-22"
     },
     {
+      "group": "J",
+      "home": "ALG",
+      "away": "AUT",
+      "hg": 3,
+      "ag": 3,
+      "date": "2026-06-27"
+    },
+    {
+      "group": "J",
+      "home": "JOR",
+      "away": "ARG",
+      "hg": 1,
+      "ag": 3,
+      "date": "2026-06-27"
+    },
+    {
       "group": "K",
       "home": "POR",
       "away": "COD",
@@ -476,6 +492,22 @@
       "date": "2026-06-23"
     },
     {
+      "group": "K",
+      "home": "COL",
+      "away": "POR",
+      "hg": 0,
+      "ag": 0,
+      "date": "2026-06-27"
+    },
+    {
+      "group": "K",
+      "home": "COD",
+      "away": "UZB",
+      "hg": 3,
+      "ag": 1,
+      "date": "2026-06-27"
+    },
+    {
       "group": "L",
       "home": "ENG",
       "away": "CRO",
@@ -506,6 +538,22 @@
       "hg": 0,
       "ag": 1,
       "date": "2026-06-23"
+    },
+    {
+      "group": "L",
+      "home": "PAN",
+      "away": "ENG",
+      "hg": 0,
+      "ag": 2,
+      "date": "2026-06-27"
+    },
+    {
+      "group": "L",
+      "home": "CRO",
+      "away": "GHA",
+      "hg": 2,
+      "ag": 1,
+      "date": "2026-06-27"
     }
   ]
 }
